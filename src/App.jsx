@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar"
 import About from "./components/About"
 import Project from "./components/Project"
-import Tecnology from "./components/Tecnology"
+import Technology from "./components/Technology"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 
@@ -12,7 +12,7 @@ export default function App() {
             <Navbar />
             <About />
             <Project />
-            <Tecnology />
+            <Technology />
             <Contact />
             <Footer />
         </>
