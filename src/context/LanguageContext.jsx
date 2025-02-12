@@ -17,7 +17,7 @@ export function LanguageProvider({ children }) {
 
   return (
     // O contexto fornece o idioma atual e a função para alterá-lo a todos os componentes descendentes
-    <LanguageContext.Provider value={{ language, toggleLanguage }}>
+    <LanguageContext.Provider value={{ language, setLanguage, toggleLanguage }}>
       {children} {/* Renderiza os componentes filhos dentro do provedor */}
     </LanguageContext.Provider>
   );
