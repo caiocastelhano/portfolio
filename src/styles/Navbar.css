@@ -62,11 +62,7 @@
     font-weight: 500;
     transition: color 0.3s ease;
   }
-  
-  .navbar-menu a:hover {
-    color: #00AEEF; /* Azul moderno */
-  }
-  
+    
   .language-switcher {
     display: flex;
     gap: 0.5rem;
