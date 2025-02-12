@@ -6,11 +6,13 @@ import usaFlag from "../images/usa-flag.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function Navbar() {
-  const { language, setLanguage } = useContext(LanguageContext);
+  const { language, toggleLanguage } = useContext(LanguageContext);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const toggleLanguage = (lang) => {
-    setLanguage(lang);
+  const handleToggleLanguage = (lang) => {
+    if ((language === "PT" && lang === "EN") || (language === "EN" && lang === "PT")) {
+      toggleLanguage();
+    }
   };
 
   const toggleMenu = () => {
@@ -20,11 +22,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <h1 className="navbar-title">
-          {language === "PT"
-            ? "Caio Castelhano"
-            : "Caio Castelhano"}
-        </h1>
+        <h1 className="navbar-title">Caio Castelhano</h1>
         <button
           className="menu-toggle"
           onClick={toggleMenu}
@@ -49,8 +47,8 @@ export default function Navbar() {
               role="button"
               tabIndex="0"
               className={`language-icon ${language === "PT" ? "active" : ""}`}
-              onClick={() => toggleLanguage("PT")}
-              onKeyDown={(e) => e.key === "Enter" && toggleLanguage("PT")}
+              onClick={() => handleToggleLanguage("PT")}
+              onKeyDown={(e) => e.key === "Enter" && handleToggleLanguage("PT")}
             />
             <img
               src={usaFlag}
@@ -58,8 +56,8 @@ export default function Navbar() {
               role="button"
               tabIndex="0"
               className={`language-icon ${language === "EN" ? "active" : ""}`}
-              onClick={() => toggleLanguage("EN")}
-              onKeyDown={(e) => e.key === "Enter" && toggleLanguage("EN")}
+              onClick={() => handleToggleLanguage("EN")}
+              onKeyDown={(e) => e.key === "Enter" && handleToggleLanguage("EN")}
             />
           </div>
         </div>
