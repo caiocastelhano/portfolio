@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 70vh;
+  min-height: 100vh;
   background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
   color: #ffffff;
   padding: 4rem 2rem 6.5rem;
@@ -31,7 +31,7 @@
 
 .contact-container {
   max-width: 600px;
-  padding: 15px;
+  padding: 50px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   text-align: center;

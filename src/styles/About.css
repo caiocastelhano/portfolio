@@ -33,7 +33,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 60px; /* Espaço entre a foto e o texto */
+  gap: 80px; /* Espaço entre a foto e o texto */
   flex-wrap: wrap; /* Garante que se ajuste em telas menores */
 }
 
@@ -114,11 +114,44 @@
   color: #cccccc; /* Texto levemente mais claro para contraste */
 }
 
+.cv-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px; /* Espaço entre a imagem e o botão */
+  flex-shrink: 0;
+}
+
+.cv-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 16px 32px; /* Aumenta o botão */
+  font-size: 1.2rem; /* Fonte maior */
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  background: linear-gradient(135deg, #0066ff, #0033cc);
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0, 102, 255, 0.5);
+}
+
+.cv-button:hover {
+  background: linear-gradient(135deg, #0033cc, #001a66);
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0, 102, 255, 0.7);
+}
+
+.cv-button:active {
+  transform: scale(0.95);
+}
+
 /* Responsividade */
 @media (max-width: 900px) {
   .about-container {
     flex-direction: column;
-    text-align: center;
     gap: 3rem;
   }
 
@@ -136,6 +169,11 @@
   }
 
   .about-text p {
+    font-size: 1.1rem;
+  }
+
+  .cv-button {
+    padding: 14px 28px;
     font-size: 1.1rem;
   }
 }
