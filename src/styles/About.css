@@ -85,7 +85,7 @@
   justify-content: center;
   align-items: center;
   gap: 55px;
-  margin-top: 75px;
+  margin-top: 60px;
   flex-wrap: wrap;
 }
 
@@ -158,5 +158,8 @@
 
   .icons-container {
     gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Garante 3 ícones por linha */
+    justify-content: center;
   }
 }

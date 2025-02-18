@@ -3,6 +3,8 @@ import { LanguageContext } from "../context/LanguageContext";
 import "../styles/About.css";
 import profile from "../images/profile.jpg";
 import { DiReact, DiJavascript1, DiRuby, DiHtml5, DiCss3, DiRor } from "react-icons/di";
+import { FaFigma, FaGithub } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
 
 export default function About() {
   const { language } = useContext(LanguageContext);
@@ -34,6 +36,9 @@ export default function About() {
           { icon: <DiReact className="icon" />, label: "React" },
           { icon: <DiRuby className="icon" />, label: "Ruby" },
           { icon: <DiRor className="icon" />, label: "Ruby on Rails" },
+          { icon: <FaFigma className="icon" />, label: "Figma" },
+          { icon: <FaGithub className="icon" />, label: "Git/GitHub" },
+          { icon: <VscVscode className="icon" />, label: "VS Code" }
         ].map((item, index) => (
           <div className="icon-item" key={index}>
             {item.icon}
