@@ -15,17 +15,32 @@ export default function About() {
         <img src={profile} alt="Profile" className="about-image" />
         <div className="about-text">
           <h2>
-            {language === "PT"
-              ? "Desenvolvedor Full-Stack"
-              : "Full-Stack Developer"}
+          {language === "PT"
+          ? "Desenvolvedor Full-Stack"
+          : "Full-Stack Developer"}
           </h2>
           <p>
-            {language === "PT"
-              ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
+          {language === "PT"
+          ? "Após mais de uma década trabalhando com redes sociais, decidi migrar para o desenvolvimento web."
+          : "After more than a decade working in social media, I transitioned to web development."}
           </p>
+          <p>
+          {language === "PT"
+          ? "Fiz um bootcamp intensivo na Le Wagon, onde aprendi Ruby on Rails, JavaScript, HTML e CSS. Desde então, tenho focado em React."
+          : "I completed an intensive bootcamp at Le Wagon, learning Ruby on Rails, JavaScript, HTML, and CSS. Since then, I’ve focused on React."}
+          </p>
+          <p>
+          {language === "PT"
+          ? "Minha experiência em filosofia e cinema me ajudou a desenvolver um olhar analítico e criativo para resolver problemas. Também valorizo muito o trabalho em equipe."
+          : "My background in philosophy and film has helped me develop an analytical and creative approach to problem-solving. I also highly value teamwork."}
+          </p>
+          <p>
+          {language === "PT"
+          ? "Entre em contato e vamos construir algo incrível juntos!"
+          : "Get in touch, and let’s build something great together!"}
+          </p>
+          </div>
         </div>
-      </div>
 
       {/* 🔽 Ícones abaixo da foto e do texto */}
       <div className="icons-container">
