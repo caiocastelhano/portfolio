@@ -10,7 +10,7 @@ export default function About() {
   const { language } = useContext(LanguageContext);
 
   return (
-    <section className="about">
+    <section id="about" className="about">
       <div className="about-container">
         <img src={profile} alt="Profile" className="about-image" />
         <div className="about-text">

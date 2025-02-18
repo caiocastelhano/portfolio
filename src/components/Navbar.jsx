@@ -19,6 +19,11 @@ export default function Navbar() {
     setMenuOpen(!menuOpen);
   };
 
+  const handleScroll = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+    setMenuOpen(false); // Fecha o menu ao clicar
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -31,15 +36,15 @@ export default function Navbar() {
           {menuOpen ? <FaTimes /> : <FaBars />}
         </button>
         <div className={`navbar-menu ${menuOpen ? "open" : ""}`}>
-          <a href="#about" onClick={() => setMenuOpen(false)} aria-label="Ir para a seção Sobre">
+          <button onClick={() => handleScroll("about")} aria-label="Ir para a seção Sobre">
             {language === "PT" ? "Sobre" : "About"}
-          </a>
-          <a href="#projects" onClick={() => setMenuOpen(false)} aria-label="Ir para a seção Projetos">
+          </button>
+          <button onClick={() => handleScroll("projects")} aria-label="Ir para a seção Projetos">
             {language === "PT" ? "Projetos" : "Projects"}
-          </a>
-          <a href="#contact" onClick={() => setMenuOpen(false)} aria-label="Ir para a seção Contato">
+          </button>
+          <button onClick={() => handleScroll("contact")} aria-label="Ir para a seção Contato">
             {language === "PT" ? "Contato" : "Contact"}
-          </a>
+          </button>
           <div className="language-switcher">
             <img
               src={brazilFlag}

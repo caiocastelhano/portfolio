@@ -8,7 +8,7 @@ export default function Contact() {
   const { language } = useContext(LanguageContext);
 
   return (
-    <section className="contact">
+    <section id="contact" className="contact">
       <div className="contact-container">
         <h2>
           {language === "PT" ? "Entre em contato comigo!" : "Get in touch with me!"}

@@ -32,7 +32,7 @@ export default function Project() {
   const { language } = useContext(LanguageContext);
 
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <h2>{language === "PT" ? "Projetos" : "Projects"}</h2>
       <div className="projects-container">
         {projects.map((project, index) => (

@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -44,15 +45,17 @@
     align-items: center;
 }
 
-.navbar-menu a {
+.navbar-menu button {
+    background: none;
+    border: none;
     color: white;
-    text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
+    cursor: pointer;
     transition: color 0.3s ease-in-out;
 }
 
-.navbar-menu a:hover {
+.navbar-menu button:hover {
     color: #0066ff;
 }
 
@@ -109,7 +112,7 @@
         display: flex;
     }
 
-    .navbar-menu a {
+    .navbar-menu button {
         text-align: center;
         width: 100%;
         font-size: 1.2rem;
