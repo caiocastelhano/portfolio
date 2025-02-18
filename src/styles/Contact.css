@@ -8,12 +8,11 @@
   min-height: 70vh;
   background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
   color: #ffffff;
-  padding: 4rem 2rem 4rem;
+  padding: 4rem 2rem 6.5rem;
   position: relative;
   overflow: hidden;
   font-family: 'Inter', sans-serif;
   text-align: center;
-  margin-top: 60px;
 }
 
 .contact::before {
@@ -65,7 +64,7 @@
   font-weight: 400;
   opacity: 0.85;
   margin-bottom: 2rem;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 .social-icons {
