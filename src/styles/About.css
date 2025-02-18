@@ -125,7 +125,7 @@
 .cv-button {
   display: inline-block;
   margin-top: 10px;
-  padding: 16px 32px; /* Aumenta o botão */
+  padding: 15px 30px; /* Aumenta o botão */
   font-size: 1.2rem; /* Fonte maior */
   font-weight: 600;
   text-align: center;
@@ -151,13 +151,14 @@
 /* Responsividade */
 @media (max-width: 900px) {
   .about-container {
+    display: flex;
     flex-direction: column;
-    gap: 3rem;
+    text-align: center;
+    gap: 2rem;
   }
 
   .about-image {
     width: 220px;
-    transform: none;
   }
 
   .about-text {
@@ -175,6 +176,23 @@
   .cv-button {
     padding: 14px 28px;
     font-size: 1.1rem;
+  }
+
+  .cv-container {
+    order: 1; /* Mantém a imagem e o botão juntos no topo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-text {
+    order: 2; /* O texto vem abaixo da imagem e do botão */
+  }
+
+  .cv-button {
+    margin-top: 15px;
+    padding: 16px 32px;
+    font-size: 1.2rem;
   }
 }
 
@@ -200,5 +218,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Garante 3 ícones por linha */
     justify-content: center;
+  }
+
+  .cv-container {
+    order: 3; /* Muda a ordem do botão na versão mobile */
+  }
+
+  .cv-button {
+    margin-top: 30px;
   }
 }
