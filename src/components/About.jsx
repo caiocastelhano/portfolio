@@ -21,23 +21,23 @@ export default function About() {
           </h2>
           <p>
           {language === "PT"
-          ? "Após mais de uma década trabalhando com redes sociais, decidi migrar para o desenvolvimento web."
-          : "After more than a decade working in social media, I transitioned to web development."}
+          ? "Passei mais de 10 anos trabalhando com redes sociais, mas acabei me apaixonando por desenvolvimento web e resolvi mudar de área."
+          : "I spent over 10 years working with social media, but I fell in love with web development and decided to make the switch."}
           </p>
           <p>
           {language === "PT"
-          ? "Fiz um bootcamp intensivo na Le Wagon, onde aprendi Ruby on Rails, JavaScript, HTML e CSS. Desde então, tenho focado em React."
-          : "I completed an intensive bootcamp at Le Wagon, learning Ruby on Rails, JavaScript, HTML, and CSS. Since then, I’ve focused on React."}
+          ? "Fiz um bootcamp intensivo na Le Wagon, onde aprendi Ruby on Rails, JavaScript, HTML e CSS. Depois disso, mergulhei de cabeça no React."
+          : "I did an intensive bootcamp at Le Wagon, where I learned Ruby on Rails, JavaScript, HTML, and CSS. Since then, I’ve been diving deep into React."}
           </p>
           <p>
           {language === "PT"
-          ? "Minha experiência em filosofia e cinema me ajudou a desenvolver um olhar analítico e criativo para resolver problemas. Também valorizo muito o trabalho em equipe."
-          : "My background in philosophy and film has helped me develop an analytical and creative approach to problem-solving. I also highly value teamwork."}
+          ? "Minha bagagem em filosofia e cinema me deu um olhar analítico e criativo para resolver problemas, e eu curto muito trabalhar em equipe."
+          : "My background in philosophy and film gave me an analytical and creative approach to problem-solving, and I really enjoy working in a team."}
           </p>
           <p>
           {language === "PT"
-          ? "Entre em contato e vamos construir algo incrível juntos!"
-          : "Get in touch, and let’s build something great together!"}
+          ? "Bora criar algo incrível juntos? Me chama! 🚀"
+          : "Let’s build something awesome together! Hit me up! 🚀"}
           </p>
           </div>
         </div>

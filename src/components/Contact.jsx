@@ -11,11 +11,11 @@ export default function Contact() {
     <section id="contact" className="contact">
       <div className="contact-container">
         <h2>
-          {language === "PT" ? "Entre em contato comigo!" : "Get in touch with me!"}
+          {language === "PT" ? "Fala comigo!" : "Drop me a message!"}
         </h2>
         <h3>
-          {language === "PT" ? "Estou sempre aberto para novas oportunidades, projetos e colaborações. Sinta-se à vontade para me chamar para conversar!"
-                             : "I’m always open to new opportunities, projects, and collaborations. Feel free to reach out for a chat!"}
+          {language === "PT" ? "Estou sempre aberto pra novas oportunidades, projetos e parcerias. Bora trocar uma ideia! ✨"
+                             : "I'm always open to new opportunities, projects, and collabs. Let’s chat! ✨"}
         </h3>
         <div className="social-icons">
           <a href="https://www.linkedin.com/in/caio-castelhano/" target="_blank" rel="noopener noreferrer">
