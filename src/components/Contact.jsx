@@ -14,7 +14,7 @@ export default function Contact() {
           {language === "PT" ? "Fala comigo!" : "Drop me a message!"}
         </h2>
         <h3>
-          {language === "PT" ? "Estou sempre aberto pra novas oportunidades, projetos e parcerias. Bora trocar uma ideia! ✨"
+          {language === "PT" ? "Estou sempre aberto para novas oportunidades, projetos e parcerias. Bora trocar uma ideia! ✨"
                              : "I'm always open to new opportunities, projects, and collabs. Let’s chat! ✨"}
         </h3>
         <div className="social-icons">
