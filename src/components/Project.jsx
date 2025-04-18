@@ -24,7 +24,7 @@ const projects = [
       EN: "Marketplace that connects clients and professional chefs for unique culinary experiences."
     },
     repoLink: "https://github.com/caiocastelhano/CHEF_TOI",
-    liveLink: "https://cheftoi-ab965da39ea5.herokuapp.com/"
+    liveLink: "https://cheftoi.onrender.com/"
   }
 ];
 
