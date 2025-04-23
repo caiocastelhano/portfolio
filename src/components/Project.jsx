@@ -10,8 +10,8 @@ const projects = [
     image: giggoers,
     title: "GigGoers",
     description: {
-      PT: "Aplicativo para fãs de música descobrirem e compartilharem eventos em São Paulo.",
-      EN: "An app for music fans to discover and share events in São Paulo."
+      PT: "Aplicativo para fãs de música descobrirem e compartilharem shows em São Paulo.",
+      EN: "An app for music fans to discover and share gigs in São Paulo."
     },
     repoLink: "https://github.com/caiocastelhano/giggoers",
     liveLink: "https://giggoers-f8d886acbf20.herokuapp.com/"
