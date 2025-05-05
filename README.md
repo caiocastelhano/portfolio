@@ -37,7 +37,7 @@ O layout foi pensado para oferecer uma ótima experiência em **desktop, tablet 
 
 ## 🚀 Como rodar localmente
 
-```bash
+bash
 git clone https://github.com/caiocastelhano/portfolio.git
 cd portfolio
 npm install
