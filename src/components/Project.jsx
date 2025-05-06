@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCard";
 import "../styles/Project.css";
 import cheftoi from "../images/cheftoi.png"
 import giggoers from "../images/giggoers.png"
+import portfolio from "../images/portfolio.png"
 
 const projects = [
   {
@@ -25,6 +26,19 @@ const projects = [
     },
     repoLink: "https://github.com/caiocastelhano/CHEF_TOI",
     liveLink: "https://cheftoi.onrender.com/"
+  },
+  {
+    image: portfolio,
+    title: {
+      PT: "Portfólio Pessoal",
+      EN: "Personal Portfolio"
+    },
+    description: {
+      PT: "Meu site pessoal desenvolvido com React para apresentar meus projetos e trajetória.",
+      EN: "My personal website built with React to showcase my projects and career path."
+    },
+    repoLink: "https://github.com/caiocastelhano/portfolio",
+    liveLink: "https://caiocastelhano.github.io/portfolio/"
   }
 ];
 
@@ -35,16 +49,20 @@ export default function Project() {
     <section id="projects" className="projects">
       <h2>{language === "PT" ? "Projetos" : "Projects"}</h2>
       <div className="projects-container">
-        {projects.map((project, index) => (
-          <ProjectCard
-            key={index}
-            image={project.image}
-            title={project.title}
-            description={project.description[language]}
-            repoLink={project.repoLink}
-            liveLink={project.liveLink}
-          />
-        ))}
+        {projects.map((project, index) => {
+          const isLastOdd = projects.length % 2 !== 0 && index === projects.length - 1;
+          return (
+            <ProjectCard
+              key={index}
+              image={project.image}
+              title={typeof project.title === "string" ? project.title : project.title[language]}
+              description={project.description[language]}
+              repoLink={project.repoLink}
+              liveLink={project.liveLink}
+              className={isLastOdd ? "centered-card" : ""}
+            />
+          );
+        })}
       </div>
     </section>
   );

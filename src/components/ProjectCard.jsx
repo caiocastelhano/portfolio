@@ -2,9 +2,9 @@ import "../styles/ProjectCard.css";
 import PropTypes from "prop-types";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
-export default function ProjectCard({ image, title, description, repoLink, liveLink }) {
+export default function ProjectCard({ image, title, description, repoLink, liveLink, className }) {
   return (
-    <div className="project-card">
+    <div className={`project-card ${className}`}>
       <a href={liveLink} target="_blank" rel="noopener noreferrer">
         <img src={image} alt={title} className="project-image" />
       </a>
@@ -27,9 +27,10 @@ export default function ProjectCard({ image, title, description, repoLink, liveL
 }
 
 ProjectCard.propTypes = {
-    image: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    repoLink: PropTypes.string.isRequired,
-    liveLink: PropTypes.string.isRequired,
-  };
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  repoLink: PropTypes.string.isRequired,
+  liveLink: PropTypes.string.isRequired,
+  className: PropTypes.string,
+};

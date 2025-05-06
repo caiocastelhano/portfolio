@@ -44,6 +44,11 @@
   padding: 0 1rem;
 }
 
+.projects-container > .centered-card {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
 @media (max-width: 768px) {
   .projects-container {
     grid-template-columns: 1fr;
