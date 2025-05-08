@@ -35,23 +35,18 @@ export default function About() {
             </h2>
             <p>
               {language === "PT"
-                ? "Passei mais de 10 anos trabalhando com redes sociais, mas acabei me apaixonando por desenvolvimento web e resolvi mudar de área."
-                : "I spent over 10 years working with social media, but I fell in love with web development and decided to make the switch."}
+                ? "Sou desenvolvedor web com formação no bootcamp da Le Wagon, onde aprendi Ruby on Rails, JavaScript, HTML, CSS e fundamentos sólidos de desenvolvimento full stack. Desde então, venho me aprofundando em Next.js, JavaScript e React, stack com a qual desenvolvi este portfólio — o primeiro projeto que construí do zero, sozinho."
+                : "I'm a web developer trained at the Le Wagon bootcamp, where I learned Ruby on Rails, JavaScript, HTML, CSS, and solid foundations in full-stack development. Since then, I've been deepening my skills in Next.js, JavaScript, and React — the stack I used to build my portfolio, the first project I developed entirely on my own."}
             </p>
             <p>
               {language === "PT"
-                ? "Fiz um bootcamp intensivo na Le Wagon, onde aprendi Ruby on Rails, JavaScript, HTML e CSS. Depois disso, mergulhei de cabeça no React."
-                : "I did an intensive bootcamp at Le Wagon, where I learned Ruby on Rails, JavaScript, HTML, and CSS. Since then, I’ve been diving deep into React."}
+                ? "Antes de entrar para a tecnologia, atuei por mais de 12 anos com redes sociais e comunicação. Também tenho bagagem em filosofia e cinema, o que me dá um olhar analítico e criativo para resolver problemas e contar histórias — mesmo no código."
+                : "Before moving into tech, I spent over 12 years working with social media and communication. I also have a background in philosophy and film, which gives me an analytical and creative lens for problem-solving and storytelling — even in my code."}
             </p>
             <p>
               {language === "PT"
-                ? "Minha bagagem em filosofia e cinema me deu um olhar analítico e criativo para resolver problemas, e eu curto muito trabalhar em equipe."
-                : "My background in philosophy and film gave me an analytical and creative approach to problem-solving, and I really enjoy working in a team."}
-            </p>
-            <p>
-              {language === "PT"
-                ? "Bora criar algo incrível juntos? Me chama! 🚀"
-                : "Let’s build something awesome together! Hit me up! 🚀"}
+                ? "Vamos conversar?"
+                : "Let’s connect!"}
             </p>
           </div>
         </div>
