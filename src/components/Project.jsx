@@ -38,7 +38,7 @@ const projects = [
       EN: "My personal website built with React to showcase my projects and career path."
     },
     repoLink: "https://github.com/caiocastelhano/portfolio",
-    liveLink: "https://caiocastelhano.github.io/portfolio/"
+    liveLink: "https://www.caiocastelhano.com.br/"
   }
 ];
 
