@@ -45,8 +45,8 @@ const projects = [
       EN: "Personal Portfolio"
     },
     description: {
-      PT: "Meu site pessoal desenvolvido com React para apresentar meus projetos e trajetória.",
-      EN: "My personal website built with React to showcase my projects and career path."
+      PT: "Meu site pessoal desenvolvido com React para apresentar projetos e trajetória.",
+      EN: "My personal website built with React to showcase projects and career path."
     },
     repoLink: "https://github.com/caiocastelhano/portfolio",
     liveLink: "https://www.caiocastelhano.com.br/"
