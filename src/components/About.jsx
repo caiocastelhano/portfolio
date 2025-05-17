@@ -12,8 +12,8 @@ export default function About() {
   const baseUrl = "/portfolio";
 
   const cvFile = language === "PT" 
-    ? `${baseUrl}/CaioCastelhano_PT.pdf`
-    : `${baseUrl}/CaioCastelhano_EN.pdf`;
+    ? `${baseUrl}/CaioCastelhanoResumePTBR.pdf`
+    : `${baseUrl}/CaioCastelhanoResumeENUS.pdf`;
 
   return (
     <section id="about" className="about">

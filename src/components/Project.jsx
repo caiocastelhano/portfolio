@@ -5,8 +5,19 @@ import "../styles/Project.css";
 import cheftoi from "../images/cheftoi.png"
 import giggoers from "../images/giggoers.png"
 import portfolio from "../images/portfolio.png"
+import museuautobiografico from "../images/museuautobiografico.jpeg"
 
 const projects = [
+  {
+    image: museuautobiografico,
+    title: "Museu Autobiográfico e Território_Leste",
+    description: {
+      PT: "Projeto do setor cultural e experiência museológica digital, combinando arte e inovação.",
+      EN: "Cultural project and digital museological experience, combining art and innovation."
+    },
+    repoLink: "https://github.com/caiocastelhano/museu-autobiografico",
+    liveLink: "https://www.museuautobiografico.org/"
+  },
   {
     image: giggoers,
     title: "GigGoers",
