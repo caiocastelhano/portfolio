@@ -27,7 +27,7 @@ const projects = [
       EN: "Institutional website for psychologist Renata Lage, featuring her professional background and online therapy services."
     },
     repoLink: "https://github.com/caiocastelhano/renatalagepsicologa",
-    liveLink: "https://renatalagepsicologa.vercel.app/"
+    liveLink: "https://www.renatalagepsicologa.com.br/"
   },
   {
     image: giggoers,
