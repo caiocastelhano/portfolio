@@ -6,6 +6,7 @@ import cheftoi from "../images/cheftoi.png"
 import giggoers from "../images/giggoers.png"
 import portfolio from "../images/portfolio.png"
 import museuautobiografico from "../images/museuautobiografico.jpeg"
+import renatalage from "../images/renatalage.png"
 
 const projects = [
   {
@@ -17,6 +18,16 @@ const projects = [
     },
     repoLink: "https://github.com/caiocastelhano/museu-autobiografico",
     liveLink: "https://www.museuautobiografico.org/"
+  },
+  {
+    image: renatalage,
+    title: "Renata Lage Psicóloga",
+    description: {
+      PT: "Site institucional da psicóloga Renata Lage, com informações sobre sua trajetória e atendimentos online.",
+      EN: "Institutional website for psychologist Renata Lage, featuring her professional background and online therapy services."
+    },
+    repoLink: "https://github.com/caiocastelhano/renatalagepsicologa",
+    liveLink: "https://renatalagepsicologa.vercel.app/"
   },
   {
     image: giggoers,
