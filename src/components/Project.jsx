@@ -7,6 +7,7 @@ import giggoers from "../images/giggoers.png"
 import portfolio from "../images/portfolio.png"
 import museuautobiografico from "../images/museuautobiografico.jpeg"
 import renatalage from "../images/renatalage.png"
+import frontendtest from "../images/frontend-test.jpg"
 
 const projects = [
   {
@@ -61,7 +62,20 @@ const projects = [
     },
     repoLink: "https://github.com/caiocastelhano/portfolio",
     liveLink: "https://www.caiocastelhano.com.br/"
-  }
+  },
+  {
+  image: frontendtest,
+  title: {
+    PT: "Previsão de Idade por Nome",
+    EN: "Age Prediction by Name"
+  },
+  description: {
+    PT: "Aplicação desenvolvida com SvelteKit como parte de um desafio técnico. Estima a idade de uma pessoa com base no nome digitado, utilizando a API pública agify.io.",
+    EN: "App developed with SvelteKit as part of a technical challenge. Predicts a person's age based on their name using the public agify.io API."
+  },
+  repoLink: "https://github.com/caiocastelhano/age-estimation-sveltekit"
+}
+
 ];
 
 export default function Project() {
