@@ -34,8 +34,8 @@ const projects = [
     image: giggoers,
     title: "GigGoers",
     description: {
-      PT: "Aplicativo para fãs de música descobrirem e compartilharem shows em São Paulo.",
-      EN: "An app for music fans to discover and share gigs in São Paulo."
+      PT: "Aplicativo para fãs de música descobrirem e compartilharem shows em São Paulo. Desenvolvido durante o bootcamp da Le Wagon.",
+      EN: "An app for music fans to discover and share gigs in São Paulo. Developed during the Le Wagon bootcamp."
     },
     repoLink: "https://github.com/caiocastelhano/giggoers",
     liveLink: "https://giggoers-f8d886acbf20.herokuapp.com/"
@@ -44,8 +44,8 @@ const projects = [
     image: cheftoi,
     title: "Chef Toi",
     description: {
-      PT: "Marketplace que conecta clientes e chefs profissionais para experiências culinárias únicas.",
-      EN: "Marketplace that connects clients and professional chefs for unique culinary experiences."
+      PT: "Marketplace que conecta clientes e chefs profissionais para experiências culinárias únicas. Desenvolvido durante o bootcamp da Le Wagon.",
+      EN: "Marketplace that connects clients and professional chefs for unique culinary experiences. Developed during the Le Wagon bootcamp."
     },
     repoLink: "https://github.com/caiocastelhano/CHEF_TOI",
     liveLink: "https://cheftoi.onrender.com/"
