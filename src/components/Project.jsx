@@ -31,6 +31,31 @@ const projects = [
     liveLink: "https://www.renatalagepsicologa.com.br/"
   },
   {
+    image: portfolio,
+    title: {
+      PT: "Portfólio Pessoal",
+      EN: "Personal Portfolio"
+    },
+    description: {
+      PT: "Meu site pessoal desenvolvido com React para apresentar projetos e trajetória.",
+      EN: "My personal website built with React to showcase projects and career path."
+    },
+    repoLink: "https://github.com/caiocastelhano/portfolio",
+    liveLink: "https://www.caiocastelhano.com.br/"
+  },
+  {
+    image: frontendtest,
+    title: {
+      PT: "Previsão de Idade por Nome",
+      EN: "Age Prediction by Name"
+    },
+    description: {
+      PT: "Aplicação desenvolvida com SvelteKit como parte de um desafio técnico. Estima a idade de uma pessoa com base no nome digitado, utilizando a API pública agify.io.",
+      EN: "App developed with SvelteKit as part of a technical challenge. Predicts a person's age based on their name using the public agify.io API."
+    },
+    repoLink: "https://github.com/caiocastelhano/age-estimation-sveltekit"
+  },
+  {
     image: giggoers,
     title: "GigGoers",
     description: {
@@ -49,32 +74,7 @@ const projects = [
     },
     repoLink: "https://github.com/caiocastelhano/CHEF_TOI",
     liveLink: "https://cheftoi.onrender.com/"
-  },
-  {
-    image: portfolio,
-    title: {
-      PT: "Portfólio Pessoal",
-      EN: "Personal Portfolio"
-    },
-    description: {
-      PT: "Meu site pessoal desenvolvido com React para apresentar projetos e trajetória.",
-      EN: "My personal website built with React to showcase projects and career path."
-    },
-    repoLink: "https://github.com/caiocastelhano/portfolio",
-    liveLink: "https://www.caiocastelhano.com.br/"
-  },
-  {
-  image: frontendtest,
-  title: {
-    PT: "Previsão de Idade por Nome",
-    EN: "Age Prediction by Name"
-  },
-  description: {
-    PT: "Aplicação desenvolvida com SvelteKit como parte de um desafio técnico. Estima a idade de uma pessoa com base no nome digitado, utilizando a API pública agify.io.",
-    EN: "App developed with SvelteKit as part of a technical challenge. Predicts a person's age based on their name using the public agify.io API."
-  },
-  repoLink: "https://github.com/caiocastelhano/age-estimation-sveltekit"
-}
+  }
 
 ];
 
