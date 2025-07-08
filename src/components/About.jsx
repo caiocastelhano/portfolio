@@ -18,7 +18,6 @@ export default function About() {
   return (
     <section id="about" className="about">
       <div className="about-container">
-  {/* 🔽 Nova div para agrupar a imagem e o botão */}
           <div className="cv-container">
             <img src={profile} alt="Profile" className="about-image" />
             <a href={cvFile} download type="application/pdf" className="cv-button">
@@ -26,7 +25,6 @@ export default function About() {
             </a>
           </div>
 
-          {/* 🔽 Texto permanece na outra coluna */}
           <div className="about-text">
             <h2>
               {language === "PT"
@@ -35,23 +33,22 @@ export default function About() {
             </h2>
             <p>
               {language === "PT"
-                ? "Sou desenvolvedor web com formação no bootcamp da Le Wagon, onde aprendi Ruby on Rails, JavaScript, HTML, CSS e fundamentos sólidos de desenvolvimento full stack. Desde então, venho me aprofundando em Next.js, JavaScript e React, stack com a qual desenvolvi este portfólio — o primeiro projeto que construí do zero, sozinho."
-                : "I'm a web developer trained at the Le Wagon bootcamp, where I learned Ruby on Rails, JavaScript, HTML, CSS, and solid foundations in full-stack development. Since then, I've been deepening my skills in Next.js, JavaScript, and React — the stack I used to build my portfolio, the first project I developed entirely on my own."}
+                ? "Desenvolvedor web com experiência em React, Next.js, Ruby on Rails e JavaScript. Já criei sites institucionais, experiências interativas e aplicações full stack — sempre cuidando da performance e do design."
+                : "Web developer with experience in React, Next.js, Ruby on Rails, and JavaScript. I've built institutional websites, interactive experiences, and full-stack applications — always focusing on performance and design."}
             </p>
             <p>
               {language === "PT"
-                ? "Antes de entrar para a tecnologia, atuei por mais de 12 anos com redes sociais e comunicação. Também tenho bagagem em filosofia e cinema, o que me dá um olhar analítico e criativo para resolver problemas e contar histórias — mesmo no código."
-                : "Before moving into tech, I spent over 12 years working with social media and communication. I also have a background in philosophy and film, which gives me an analytical and creative lens for problem-solving and storytelling — even in my code."}
+                ? "Antes disso, trabalhei por mais de 12 anos com redes sociais. Tenho formação em filosofia e cinema, e carrego isso comigo até quando estou programando."
+                : "Before that, I worked for over 12 years with social media. I have a background in philosophy and film, and I carry that with me even when I'm coding."}
             </p>
             <p>
               {language === "PT"
                 ? "Vamos conversar?"
-                : "Let’s connect!"}
+                : "Let's connect!"}
             </p>
           </div>
         </div>
 
-      {/* 🔽 Ícones abaixo da foto e do texto */}
       <div className="icons-container">
         {[
           { icon: <DiHtml5 className="icon" />, label: "HTML5" },
