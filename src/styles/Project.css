@@ -50,11 +50,23 @@
 }
 
 @media (max-width: 768px) {
+  .projects {
+    padding: 4rem 1rem 3rem;
+  }
+
   .projects-container {
     grid-template-columns: 1fr;
   }
 
   .projects h2 {
     font-size: 2rem;
+  }
+
+  .projects h2::after {
+    width: 60px;
+  }
+
+  .projects:hover h2::after {
+    width: 80px;
   }
 }
