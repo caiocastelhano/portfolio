@@ -1,36 +1,36 @@
-# 💼 Portfólio | Caio Castelhano
+# 💼 Portfolio | Caio Castelhano
 
-Este é meu portfólio pessoal como desenvolvedor web, criado com **React**. O site apresenta minha trajetória, projetos desenvolvidos, tecnologias que domino e formas de contato.
+This is my personal portfolio as a web developer, built with **React**. The website showcases my journey, developed projects, tech stack, and ways to get in touch.
 
-## 🔍 Visite
+## 🔍 Visit
 
 🌐 [caiocastelhano.com.br](https://caiocastelhano.com.br)
 
-## 🧑 Sobre mim
+## 🧑 About Me
 
-Sou Caio Castelhano, desenvolvedor web com background em cinema, redes sociais e marketing. Após uma transição de carreira, concluí o bootcamp full stack da **Le Wagon** e hoje atuo em projetos que unem design, acessibilidade e código limpo.
+I’m Caio Castelhano, a web developer with a background in film, social media, and marketing. After a career transition, I completed the **Le Wagon** full-stack bootcamp and now work on projects that combine design, accessibility, and clean code.
 
-## ⚙️ Tecnologias utilizadas
+## ⚙️ Technologies Used
 
 - React  
 - JavaScript  
 - CSS Modules  
 - HTML5  
-- Git e GitHub  
-- Vite (para build)  
-- Hospedagem via Vercel (com domínio próprio)
+- Git & GitHub  
+- Vite (for build)  
+- Hosting via Vercel (with custom domain)
 
-## 🗂️ Estrutura do site
+## 🗂️ Site Structure
 
-Este portfólio é uma **SPA (Single Page Application)** composta pelas seguintes seções:
+This portfolio is a **SPA (Single Page Application)** composed of the following sections:
 
-- **Sobre**: minha trajetória e experiência  
-- **Projetos**: principais projetos desenvolvidos no bootcamp e como freelancer  
-- **Tecnologias**: ferramentas e stacks que domino  
-- **Contato**: links para redes sociais e formas de contato direto
+- **About**: my background and experience  
+- **Projects**: main projects developed during the bootcamp and as a freelancer  
+- **Technologies**: tools and stacks I master  
+- **Contact**: links to social media and direct contact options
 
-💬 O site é **bilíngue** (português e inglês), com botão de troca de idioma no menu de navegação.
+💬 The site is **bilingual** (Portuguese and English), with a language switch button in the navigation menu.
 
-## 📱 Responsividade
+## 📱 Responsiveness
 
-O layout foi projetado para oferecer uma ótima experiência em **desktop, tablet e mobile**.
+The layout is designed to provide an experience on **desktop, tablet, and mobile**.
