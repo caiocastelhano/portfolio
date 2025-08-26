@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
     return (
-        <LanguageProvider> {/* Agora todos os componentes terão acesso ao contexto de idioma */}
+        <LanguageProvider>
             <Navbar />
             <About />
             <Project />
