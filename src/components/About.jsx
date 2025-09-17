@@ -28,23 +28,23 @@ export default function About() {
           <div className="about-text">
             <h2>
               {language === "PT"
-                ? "Desenvolvedor Full-Stack"
-                : "Full-Stack Developer"}
+                ? "Desenvolvedor full-stack"
+                : "Full-stack Developer"}
             </h2>
             <p>
               {language === "PT"
-                ? "Desenvolvedor web com experiência em React, Next.js, Ruby on Rails e JavaScript. Já criei sites institucionais, experiências interativas e aplicações full stack — sempre cuidando da performance e do design."
-                : "Web developer with experience in React, Next.js, Ruby on Rails, and JavaScript. I've built institutional websites, interactive experiences, and full-stack applications — always focusing on performance and design."}
+                ? "Experiência prática em projetos entregues como freelancer em React, Next.js e JavaScript. Crio aplicações modernas, responsivas e acessíveis, com foco em performance, SEO e identidade visual consistente."
+                : "Hands-on experience in freelance projects using React, Next.js, and JavaScript. I build modern, responsive, and accessible applications with a focus on performance, SEO, and consistent visual design."}
             </p>
             <p>
               {language === "PT"
-                ? "Antes disso, trabalhei por mais de 12 anos com redes sociais. Tenho formação em filosofia e cinema, e carrego isso comigo até quando estou programando."
-                : "Before that, I worked for over 12 years with social media. I have a background in philosophy and film, and I carry that with me even when I'm coding."}
+                ? "Atuo com deploy em Vercel e Netlify e aplico boas práticas de acessibilidade e internacionalização."
+                : "I have experience deploying projects on Vercel and Netlify and follow best practices for accessibility and internationalization."}
             </p>
             <p>
               {language === "PT"
-                ? "Vamos conversar?"
-                : "Let's connect!"}
+                ? "Carreira anterior em comunicação e marketing digital, que fortalece minhas soft skills em escrita, criatividade e colaboração com equipes multidisciplinares."
+                : "My previous career in communication and digital marketing has strengthened my soft skills in writing, creativity, and collaboration with multidisciplinary teams."}
             </p>
           </div>
         </div>
