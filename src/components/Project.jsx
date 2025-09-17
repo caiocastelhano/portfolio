@@ -85,24 +85,6 @@ const projects = [
     liveLink: "https://www.caiocastelhano.com.br/"
   },
   {
-    image: frontendtest,
-    title: {
-      PT: "Previsão de Idade por Nome",
-      EN: "Age Prediction by Name"
-    },
-    description: {
-      PT: "Aplicação desenvolvida com SvelteKit como parte de um desafio técnico. Estima a idade de uma pessoa com base no nome digitado, utilizando a API pública agify.io.",
-      EN: "App developed with SvelteKit as part of a technical challenge. Predicts a person's age based on their name using the public agify.io API."
-    },
-    techStack: ["SvelteKit", "JavaScript", "CSS", "agify.io API"],
-    role: {
-      PT: "Front-end/Desafio Técnico",
-      EN: "Front-end/Technical Challenge"
-    },
-    teamProject: false,
-    repoLink: "https://github.com/caiocastelhano/age-estimation-sveltekit"
-  },
-  {
     image: giggoers,
     title: "GigGoers",
     description: {

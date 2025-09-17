@@ -33,7 +33,7 @@ export default function ProjectCard({
         {/* 📌 Detalhes do tipo de projeto */}
         <div className="project-meta">
           {role && <span>{role}</span>}
-          <span>• {teamProject ? "Projeto em grupo" : "Projeto individual"}</span>
+          <span>{teamProject}</span>
         </div>
 
         {/* 🔗 Links */}
