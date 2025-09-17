@@ -7,7 +7,6 @@ import giggoers from "../images/giggoers.png"
 import portfolio from "../images/portfolio.png"
 import museuautobiografico from "../images/museuautobiografico.jpeg"
 import renatalage from "../images/renatalage.png"
-import frontendtest from "../images/frontend-test.jpg"
 import fabiomontanari from "../images/fabiomontanari.webp"
 
 const projects = [
@@ -15,8 +14,8 @@ const projects = [
     image: museuautobiografico,
     title: "Museu Autobiográfico e Território_Leste",
     description: {
-      PT: "Site para o projeto artístico idealizado por Marcelo Rodrigues. A experiência museológica combina arte, memória e narrativas pessoais. Responsável por todo o desenvolvimento — do layout à publicação — com foco em acessibilidade, performance e uma identidade visual personalizada.",
-      EN: "Website for an artistic project conceived by Marcelo Rodrigues. The digital museological experience blends art, memory, and personal narratives. Fully responsible for the development — from layout to deployment — with a focus on accessibility, performance, and a distinctive visual identity."
+      PT: "Site para o projeto artístico idealizado por Marcelo Rodrigues. A experiência museológica combina arte, memória e narrativas pessoais. Responsável por todo o desenvolvimento - do layout à publicação.",
+      EN: "Website for an artistic project conceived by Marcelo Rodrigues. The digital museological experience blends art, memory, and personal narratives. Fully responsible for the development - from layout to deployment."
     },
     techStack: ["Next.js", "React", "JavaScript", "CSS Modules", "Vercel"],
     role: {
@@ -34,8 +33,8 @@ const projects = [
       EN:"Renata Lage Psychologist"
     },
     description: {
-      PT: "Site institucional multilíngue da psicóloga Renata Lage (português, inglês, espanhol e francês), com informações sobre sua trajetória e atendimentos online. Desenvolvido com foco em responsividade, performance e organização do conteúdo.",
-      EN: "Multilingual institutional website for psychologist Renata Lage (Portuguese, English, Spanish, and French), featuring information about her background and online therapy services. Developed with a focus on responsiveness, performance, and well-structured content."
+      PT: "Site institucional multilíngue da psicóloga Renata Lage (português, inglês, espanhol e francês), com informações sobre sua trajetória e atendimentos online.",
+      EN: "Multilingual institutional website for psychologist Renata Lage (Portuguese, English, Spanish, and French), featuring information about her background and online therapy services."
     },
     techStack: ["Next.js", "React", "JavaScript", "CSS Modules", "Vercel"],
     role: {
@@ -53,8 +52,8 @@ const projects = [
       EN: "Fabio Montanari"
     },
     description: {
-      PT: "Site institucional multilíngue do roteirista e diretor Fabio Montanari (português e inglês), com seções dedicadas à sua trajetória profissional, trabalhos selecionados, consultoria de roteiro e atuação na indústria audiovisual. Desenvolvido com foco em performance, acessibilidade, responsividade e carregamento otimizado de imagens. Inclui carrosséis, modais, animações e recursos interativos cuidadosamente implementados.",
-      EN: "Multilingual institutional website for screenwriter and director Fabio Montanari (Portuguese and English), featuring dedicated sections for his professional background, selected works, script consulting, and industry research. Built with a strong focus on performance, accessibility, responsiveness, and optimized image loading. Includes carousels, modals, animations, and thoughtfully crafted interactive elements."
+      PT: "Site institucional multilíngue do roteirista e diretor Fabio Montanari, com seções dedicadas à sua trajetória profissional, trabalhos selecionados, consultoria de roteiro e atuação na indústria audiovisual.",
+      EN: "Multilingual institutional website for screenwriter and director Fabio Montanari, featuring dedicated sections for his professional background, selected works, script consulting, and industry research."
     },
     techStack: ["Next.js", "React", "JavaScript", "CSS Modules", "Netlify", "Vercel"],
     role: {
@@ -72,8 +71,8 @@ const projects = [
       EN: "Personal Portfolio"
     },
     description: {
-      PT: "Site pessoal criado do zero para apresentar meus projetos e trajetória profissional. Com foco em design limpo, responsividade, acessibilidade e organização do código.",
-      EN: "Personal website built from scratch to showcase my projects and professional background. Designed with a focus on clean UI, responsiveness, accessibility, and well-structured code."
+      PT: "Site pessoal desenvolvido do zero para apresentar meus projetos e trajetória profissional, com design limpo, responsivo e acessível.",
+      EN: "Personal website built from scratch to showcase my projects and professional background, featuring a clean, responsive, and accessible design."
     },
     techStack: ["React", "JavaScript", "CSS Modules", "Vercel"],
     role: {
