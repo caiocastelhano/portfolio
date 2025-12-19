@@ -21,7 +21,6 @@ export default function ProjectCard({
       <div className="project-info">
         <h3>{title}</h3>
         <p>{description}</p>
-        {/* 🛠️ Tecnologias utilizadas */}
           {techStack.length > 0 && (
             <div className="tech-stack">
               {techStack.map((tech, index) => (
@@ -30,13 +29,11 @@ export default function ProjectCard({
             </div>
           )}
 
-        {/* 📌 Detalhes do tipo de projeto */}
         <div className="project-meta">
           {role && <span>{role}</span>}
           <span>{teamProject}</span>
         </div>
 
-        {/* 🔗 Links */}
         <div className="project-links">
           <a href={repoLink} target="_blank" rel="noopener noreferrer">
             <FaGithub /> GitHub

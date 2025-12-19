@@ -8,6 +8,7 @@ import portfolio from "../images/portfolio.png"
 import museuautobiografico from "../images/museuautobiografico.jpeg"
 import renatalage from "../images/renatalage.png"
 import fabiomontanari from "../images/fabiomontanari.webp"
+import giselesartini from "../images/giselesartini.jpg"
 
 const projects = [
   {
@@ -19,12 +20,28 @@ const projects = [
     },
     techStack: ["Next.js", "React", "JavaScript", "CSS Modules", "Vercel"],
     role: {
-      PT: "Full Stack/Freelancer",
-      EN: "Full Stack/Freelancer"
+      PT: "Full-Stack/Freelancer",
+      EN: "Full-Stack/Freelancer"
     },
     teamProject: false,
     repoLink: "https://github.com/caiocastelhano/museu-autobiografico",
     liveLink: "https://www.museuautobiografico.org/"
+  },
+  {
+    image: giselesartini,
+    title: "Gisele Sartini",
+    description: {
+      PT: "Portfólio bilíngue (PT/EN) de Gisele Sartini, profissional multimídia do audiovisual. O site reúne vídeos, projetos autorais e trabalhos selecionados. Responsável por todo o desenvolvimento do site, do layout ao deploy.",
+      EN: "Bilingual portfolio (PT/EN) of Gisele Sartini, a multimedia audiovisual professional. The website features videos, authorial projects, and selected works. Fully responsible for the website development, from layout to deployment."
+    },
+    techStack: ["Next.js", "React", "JavaScript", "CSS Modules", "Vercel"],
+    role: {
+      PT: "Full-Stack/Freelancer",
+      EN: "Full-Stack/Freelancer"
+    },
+    teamProject: false,
+    repoLink: "https://github.com/caiocastelhano/gisele-sartini",
+    liveLink: "https://www.giselesartini.com"
   },
   {
     image: renatalage,
@@ -92,8 +109,8 @@ const projects = [
     },
     techStack: ["Ruby on Rails", "JavaScript", "HTML5", "SCSS", "Heroku"],
     role: {
-      PT: "Full Stack/Projeto do bootcamp",
-      EN: "Full Stack/Bootcamp Project"
+      PT: "Full-Stack/Projeto do bootcamp",
+      EN: "Full-Stack/Bootcamp Project"
     },
     teamProject: true,
     repoLink: "https://github.com/caiocastelhano/giggoers",
@@ -109,8 +126,8 @@ const projects = [
     techStack: ["Ruby on Rails", "JavaScript", "HTML5", "SCSS", "Heroku", "Render"]
 ,
     role: {
-      PT: "Full Stack/Projeto do bootcamp",
-      EN: "Full Stack/Bootcamp Project"
+      PT: "Full-Stack/Projeto do bootcamp",
+      EN: "Full-Stack/Bootcamp Project"
     },
     teamProject: true,
     repoLink: "https://github.com/caiocastelhano/CHEF_TOI",
