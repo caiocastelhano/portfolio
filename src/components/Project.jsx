@@ -116,23 +116,6 @@ const projects = [
     repoLink: "https://github.com/caiocastelhano/giggoers",
     liveLink: "https://giggoers-f8d886acbf20.herokuapp.com/"
   },
-  {
-    image: cheftoi,
-    title: "Chef Toi",
-    description: {
-      PT: "Marketplace online que conecta chefs a clientes, com sistema de cadastro, reservas, avaliações, busca por localização e integração de pagamento. Desenvolvido em grupo em uma semana durante o bootcamp da Le Wagon.",
-      EN: "Online marketplace connecting chefs and clients, with user registration, bookings, reviews, location-based search, and payment integration. Built as a group project in one week during the Le Wagon bootcamp."
-    },
-    techStack: ["Ruby on Rails", "JavaScript", "HTML5", "SCSS", "Heroku", "Render"]
-,
-    role: {
-      PT: "Full-Stack/Projeto do bootcamp",
-      EN: "Full-Stack/Bootcamp Project"
-    },
-    teamProject: true,
-    repoLink: "https://github.com/caiocastelhano/CHEF_TOI",
-    liveLink: "https://cheftoi.onrender.com/"
-  }
 ];
 
 export default function Project() {
